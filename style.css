@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#backgroundvideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+form {
+    position: relative;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    backdrop-filter: blur(5px);
+}
+
+label {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+input, select {
+    margin-top: 5px;
+}
+body{
+    background-color: cadetblue;
+}
+a{
+    color: navy;
+}
+nav ul{
+    background-color: bisque;
+    border: 2px double blue;
+    padding: 10px;
+    border-radius: 15px
+}
+nav ul li{
+    list-style: none;
+    display:inline;
+    margin-right: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: navy;
+}
+table{
+    background-color: burlywood;
+    color: antiquewhite;
+}
+table tr td{
+padding: 5px;
+}
+header{
+    padding: 20px;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+video{
+    padding: 20px;
+    margin: auto;
+}
+table{
+    padding: 20px;
+    margin: auto;
+    border: 2px double black;
+}
+section{
+    padding: 20px;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+h1{
+    padding: 20px;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#music{
+font-size: xx-large;
+}
+#form{
+    width: 500px;
+    margin: auto;
+    padding: 30px;
+}
+input{
+    padding: 10px;
+    margin: 10px;
+}
+input[type=submit]:hover {
+    color: grey;
+}
+
+input[type=reset]:hover {
+    color: grey;
+}
+
+.formlink:visited {
+    color: purple;
+}

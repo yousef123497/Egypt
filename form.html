@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body id="form">
+    <video loop autoplay muted playsinline id="backgroundvideo">
+        <source src="egypt.mp4" type="video/mp4">
+    </video>
+    <form>
+        <label>Full Name</label>
+        <input type="text" placeholder="Full Name Here" required>
+        <br>
+        <label>Email</label>
+        <input type="email" placeholder="Email Here" required>
+        <br>
+        <label>Password</label>
+        <input type="password" placeholder="Password Here" required>
+        <br>
+        <label>Phone Number</label>
+        <input type="tel" placeholder="Phone Number Here" required>
+        <br>
+        <label>Birth Date</label>
+        <input type="date" required>
+        <br>
+        <label>Gender</label>
+        <br>
+        <input type="radio" name="gender" value="Male">
+        <label>Male</label>
+        <br>
+        <input type="radio" name="gender" value="Female">
+        <label>Female</label>
+        <br>
+        <label>Put Your ID or Citizenship</label>
+        <br>
+        <input type="file">
+        <br>
+        <label>Put Preferred Color</label>
+        <input type="color">
+        <br>
+        <label>Choose Amount of Visitors</label>
+        <br>
+        <select>
+            <option value="ChooseOne">Choose One</option>
+            <option value="1-2">1-2</option>
+            <option value="3-5">3-5</option>
+            <option value="6-10">6-10</option>
+            <option value="11+">11+</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        <br>
+        <a href="index.html" class="formlink">Go Back to Home Page</a>
+    </form>
+</body>
+</html>
